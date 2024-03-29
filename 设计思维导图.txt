@@ -1,0 +1,104 @@
+添加搜索功能：待写
+信息收集
+	spider_fofa
+	f3scan
+	OneForAll：暂时没集成
+	asset_deal：
+	suscan
+	jsinfo-scan:
+	邮箱-子域名收集：
+	fofaviewer：
+	dontgo403： bypass 40X
+	DNShub
+	jsfinder：暂时未集成
+	水泽：暂时未集成
+存活探测
+	dirsearch
+	httpx
+	rad_windows
+	小米范
+	naabu
+	ffuf
+指纹识别
+	Ehole3.0-Win
+	finger_ws
+漏洞探测
+	nuclei
+	xray
+	vulmap
+	packer-fuzz
+	raligui
+	goby
+漏洞利用
+    ueditor(net)
+    sqlmap
+	shiro
+	thinkphp
+	strtus2
+	springboot
+	liqun：
+	liqun：
+	Thelostworld OA：
+	向日葵RCE
+	sangfor read team OAtools
+	CF
+
+框架漏洞:未集成
+    Fortinet FortiNAC：未集成CVE-2022-39952
+
+weshell管理：
+    冰蝎：
+    哥斯拉：
+    蚁剑：
+内网扫描：
+    fscan：
+    cobaltstrike ：
+内网连接：
+    Multiple.Database.Utilization.Tools-2.1.1
+代理转发
+    frp_windows
+    frp_linux
+    Neo-reGeorg
+    reGeorg
+    ew
+
+字典生成
+    GUI字典生成
+    白鹿社工字典
+	火花字典：暂未集成
+    md5crack：暂未集成
+横向工具：
+    psexec：
+密码hash：
+    mimikatz：使用命令 本地：mimikatz.exe "sekurlsa::minidump lsass.dmp" "sekurlsa::logonPasswords full" > pssword.txt  lsass.dmp dump下来的文件
+    procdump：微软官方的hash抓取工具 procdump.exe -accepteula -ma lsass.exe lsass.dmp
+    Outflank-Dumpert：白嫖到的一款windwos hash密码抓取工具，具有免杀效果，抓取然后本地执行
+
+笔记记录：新功能-没必要
+	SQL注入技巧：绕过payload记录
+	XSS技巧：绕过payload记录
+	SSRF技巧
+	命令执行技巧
+	重定向技巧
+	文件包含技巧
+	认证绕过：X-Custom-IP-Authorization: 127.0.0.1
+	案例分享：
+		js逆向百例
+		注入绕过等
+    免杀shell
+    重新布局
+
+隐藏资产发现：未集成
+    js隐藏参数：未集成
+    1-10000端口
+    小程序url，ip
+    app_url,ip
+    谷歌语法
+    fofa特殊语法
+    子域名查找：
+        多用几套工具，ffuf
+    小程序秘钥泄露
+    app 秘钥泄露
+SRC管理：# 未集成
+    漏洞盒子
+    漏洞银行
